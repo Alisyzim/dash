@@ -534,13 +534,16 @@ main .recent-orders a{
     align-items: center;
     gap: 0.6rem;
 }
-
+@media screen and (min-width: 780px){
+    aside{
+        display: block;
+    }
+}
 @media screen and (max-width: 1200px) {
     .container{
         width: 95%;
         grid-template-columns: 7rem auto 23rem;
     }
-
     aside .logo h2{
         display: none;
     }
